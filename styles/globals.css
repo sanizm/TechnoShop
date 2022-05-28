@@ -783,3 +783,23 @@ span.text-red {
     margin: auto;
   }
 }
+
+
+@media screen and (max-width: 500px) {
+  .footer-banner-container {
+    height: 600px;
+    margin-top: 80px;
+  }
+  .hero-banner-image {
+    width: 40%;
+    height: 30%;
+    top: 45%;
+    right: 9%;
+  }
+  .footer-banner-image {
+    width: 45%;
+    height: 30%;
+    top: 20%;
+    left: 55%;
+  }
+}
